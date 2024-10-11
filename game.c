@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
-//#include <string.h> for string manipulation
 
+
+//#include <string.h> for string manipulation
 int main() {
     // Setting up variables first
     char fullname [125];
@@ -17,6 +18,8 @@ int main() {
     int year;
     char month[125];
     char ans6[125] ;
+
+    // To stop people who don't know the month of the year ...
 
     // There starts the code for the dialogue.
 
