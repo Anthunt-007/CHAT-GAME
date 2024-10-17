@@ -1,9 +1,8 @@
 #include <stdio.h>
+
 #include <string.h>
-
-
-
 //#include <string.h> for string manipulation
+
 int main() {
     // Setting up variables first
     char fullname [125];
@@ -95,15 +94,15 @@ int main() {
     printf("\nPlease answer : ");
     scanf("%d", &age);
 
-     if (age <35)
+    if (age <35)
      {
         printf("\nHehe🤭, I'm older than you since I was created before Tim Berners-Lee invented the internet in 1989🥹\n");
      }
-     else if (age >35)
+    else if (age >35)
      {
         printf("\nMy respect, older friend🧘🏾\n");
      }
-     else{
+    else{
         printf("\nIncorrect input\n");
      }
 
