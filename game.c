@@ -3,6 +3,8 @@
 #include <string.h>
 //#include <string.h> for string manipulation
 
+#include <unistd.h>
+
 int main() {
     // Setting up variables first
     char fullname [125];
@@ -17,8 +19,6 @@ int main() {
     int year;
     char month[125];
     char ans6[125] ;
-
-    // To stop people who don't know the month of the year ...
 
     // There starts the code for the dialogue.
 
@@ -124,6 +124,7 @@ int main() {
     printf("\nEnter the month: ");
     fgets(month, sizeof(month), stdin); 
     month[ strcspn (month, "\n") ] = 0;
+    is_a_month.c;
 
     printf("\nEnter the year : ");
     scanf("%i", &year);
